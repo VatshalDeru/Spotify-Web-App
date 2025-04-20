@@ -33,7 +33,7 @@ export default function UserData({ selectedConfig, timeRange, userData }){
 
     return (
         <div className="userDataContainer">
-        <p>Your top {selectedConfig} for the past {timeRange}</p>
+        <p>Your top {selectedConfig} for the past {timeString}</p>
             <ul style={{listStyle: "none"}}>
                 {content}
             </ul>
