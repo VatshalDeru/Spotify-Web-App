@@ -1,0 +1,11 @@
+.heroContainer h1 {
+    font-size: 8rem;
+    line-height: 3rem;
+}
+
+.heroContainer .wrapped{
+    font-weight: 2rem;
+    color: rgb(59, 158, 59);
+    text-transform: uppercase;
+    
+}

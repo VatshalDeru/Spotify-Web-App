@@ -1,0 +1,103 @@
+.userDataWrapper{
+    margin-top: 2em;
+    width: 70vw;
+    background-color: #1A1A1A;
+    padding: 2em;
+    border-radius: 2rem;
+}
+
+
+
+.userDataWrapper .categoryBtns {
+    /* display: none; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+
+
+.categoryBtns button{
+    /* display: none; */
+    background-color: rgb(39, 43, 39);
+    border-radius: 5rem;
+    width: 11.5rem;
+}
+
+.categoryBtns .selected{
+    background-color: rgb(23, 139, 23) ;
+    border: 1px rgb(10, 70, 10);
+}
+
+.userDataWrapper .categoryBtns button:hover{
+    background-color: rgb(23, 139, 23);
+    border: none;
+}
+
+
+
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.timeBtns button{
+    background-color: rgb(39, 43, 39);
+    border-radius: 5rem;
+    font-size: 0.9rem;
+    width: 9rem;
+    margin: 0 1rem;
+}
+
+.timeBtns .selected{
+    background-color: rgb(23, 139, 23);
+    border: 1px rgb(10, 70, 10);
+}
+.timeBtns button:active{
+    /* background-color: rgb(23, 139, 23); */
+    /* border: 1px rgb(7, 61, 7); */
+    border: none;
+}
+
+.timeBtns button:hover{
+    background-color: rgb(23, 139, 23);
+}
+
+.userDataContainer{
+    margin-block: 3em 2em;
+}
+
+.userDataContainer ul{
+    gap: 10px;
+
+}
+
+.userDataContainer ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 2rem;
+}
+
+.userDataContainer ul li .image{
+    /* width: 6rem;
+    height: 6rem; */
+
+    border-radius: 2rem;
+}
+
+.userDataContainer ul li img{
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+
+
+
+.userDataContainer ul li p{
+    font-weight: bold;
+}
