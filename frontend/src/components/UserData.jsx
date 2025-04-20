@@ -25,6 +25,11 @@ export default function UserData({ selectedConfig, timeRange, userData }){
         })
     }
 
+    let timeString = '';
+
+    if(timeRange === 'short') timeString = '4 Weeks'
+    else if(timeRange === 'medium') timeString = '6 Months'
+    else if(timeRange === 'long') timeString = '12 Months'
 
     return (
         <div className="userDataContainer">
